@@ -52,7 +52,7 @@
             <td>
               <a class="ellipsis" href="tx/{{tx.txid}}">{{tx.txid}}</a>
             </td>
-            <td class="text-right"><span class="ellipsis">{{$root.currency.getConvertion(tx.valueOut) || tx.valueOut + ' BTC'}}</span></td>
+            <td class="text-right"><span class="ellipsis">{{$root.currency.getConvertion(tx.valueOut) || tx.valueOut + ' BCX'}}</span></td>
           </tr>
           </tbody>
         </table>
@@ -61,10 +61,10 @@
 
       <div class="col-xs-12 col-md-4 col-gray">
         <h2 translate style="margin-top: 0px">About</h2>
-        <p translate>This is an <strong>insight</strong> instance, used for <a href="https://trezor.io">TREZOR</a> web wallet.
+        <p translate>This is an <strong>BitcoinX Insight</strong> instance, It is a BitcoinX  Blockchain Explorer and web application service presenting the <a href="https://github.com/ho1to/insight"></a> Insight UI.
         </p>
         <p translate>Originally written by <a href="https://bitpay.com">bitpay</a>.</p>
-        <p translate>Source code <a href="https://github.com/satoshilabs/bitcore" target="_blank">here</a> and in linked packages.</p>
+        <p translate>Source code <a href="https://github.com/ho1to/bitcore" target="_blank">here</a> and in linked packages.</p>
       </div>
     </div>
   </div>
