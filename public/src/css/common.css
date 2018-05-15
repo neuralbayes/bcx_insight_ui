@@ -79,6 +79,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   margin: 0 auto -51px;
   /* Pad bottom by footer height */
   padding: 0 0 75px;
+  background: white;
 }
 
 .m10h { margin: 0 10px; }
